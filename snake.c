@@ -91,10 +91,7 @@ static struct PyModuleDef snakedef = {
 };
 
 PyMODINIT_FUNC
-PyInit_snake(void)
-{
-    PyObject *m;
-
+PyInit_snake(void) {
     return PyModule_Create(&snakedef);
 }
 
